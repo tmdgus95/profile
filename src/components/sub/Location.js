@@ -68,7 +68,7 @@ const Location = () => {
   const [idx, setIdx] = useState(0);
 
   // 지도를 담을 영역의 DOM 레퍼런스
-  // var container = document.getElementById("map");
+  //  var container = document.getElementById("map");
   const container = useRef(null);
   const btns = useRef(null);
 
